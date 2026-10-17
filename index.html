@@ -17,7 +17,6 @@
     <nav><a href="#mods">المودات</a><a href="#about">عن الموقع</a><a href="#submit">طريقة إضافة مود</a></nav>
     <a class="header-button" href="#mods">اكتشف المودات <span>↙</span></a>
   </header>
-
   <main>
     <section class="hero">
       <div class="hero-copy">
@@ -29,7 +28,7 @@
           <a class="text-button" href="#about">اعرف المزيد <span>←</span></a>
         </div>
         <div class="hero-stats">
-          <div><strong id="mod-count">03</strong><span>مودات معروضة</span></div>
+          <div><strong id="mod-count">02</strong><span>مودات معروضة</span></div>
           <i></i>
           <div><strong>MC</strong><span>عالم ماينكرافت</span></div>
           <i></i>
@@ -47,42 +46,34 @@
         <div class="ground"></div>
       </div>
     </section>
-
     <section class="section mods-section" id="mods">
       <div class="section-heading">
         <div><div class="section-kicker">مكتبة الإضافات / 01</div><h2>اختَر مغامرتك <span class="green">الجديدة.</span></h2></div>
         <div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="ابحث عن مود..." aria-label="ابحث عن مود"></div>
       </div>
       <div class="filters" role="group" aria-label="تصفية المودات">
-        <button class="filter active" data-filter="all">الكل <span id="all-count">03</span></button>
+        <button class="filter active" data-filter="all">الكل <span id="all-count">02</span></button>
         <button class="filter" data-filter="bedrock">Bedrock</button>
         <button class="filter" data-filter="java">Java</button>
         <button class="filter" data-filter="tools">أدوات ومغامرات</button>
       </div>
       <div class="mod-grid" id="mod-grid">
-        <article class="mod-card" data-title="صندوق الأدوات" data-category="bedrock tools">
-          <div class="mod-cover cover-green"><span class="cover-label">ADD-ON / 01</span><div class="cover-cube">⚒</div><span class="cover-version">BEDROCK</span></div>
-          <div class="mod-info"><div class="mod-meta"><span class="type-pill">إضافة</span><span>الإصدار 1.0</span></div><h3>صندوق الأدوات</h3><p>مساحة مخصصة لوصف مودك الأول. استبدل هذا النص بوصف المميزات وطريقة الاستخدام.</p><div class="card-bottom"><span class="file-type">.mcaddon</span><a class="download-link" href="mods/toolbox.mcaddon" download>تحميل <span>↓</span></a></div></div>
+        <article class="mod-card" data-title="Lava From Sky" data-category="bedrock">
+          <div class="mod-cover cover-orange"><span class="cover-label">ADD-ON / 01</span><div class="cover-cube">☄</div><span class="cover-version">BEDROCK</span></div>
+          <div class="mod-info"><div class="mod-meta"><span class="type-pill">إضافة</span><span>ملف MCADDON</span></div><h3>Lava From Sky</h3><p>إضافة Lava From Sky لماينكرافت Bedrock. حمّل الملف وجرّبه في لعبتك.</p><div class="card-bottom"><span class="file-type">.mcaddon</span><a class="download-link" href="mods/Lava_From_Sky_Y270_Fixed_Import.mcaddon" download>تحميل <span>↓</span></a></div></div>
         </article>
-        <article class="mod-card" data-title="عالم المكعبات" data-category="bedrock">
-          <div class="mod-cover cover-purple"><span class="cover-label">ADD-ON / 02</span><div class="cover-cube">▦</div><span class="cover-version">BEDROCK</span></div>
-          <div class="mod-info"><div class="mod-meta"><span class="type-pill">عالم</span><span>الإصدار 1.0</span></div><h3>عالم المكعبات</h3><p>أضف وصفاً قصيراً هنا يوضح ما الذي يجعل هذه الإضافة مختلفة وممتعة للاعبين.</p><div class="card-bottom"><span class="file-type">.mcpack</span><a class="download-link" href="mods/cube-world.mcpack" download>تحميل <span>↓</span></a></div></div>
-        </article>
-        <article class="mod-card" data-title="مغامرة البقاء" data-category="java tools">
-          <div class="mod-cover cover-orange"><span class="cover-label">MOD / 03</span><div class="cover-cube">✦</div><span class="cover-version">JAVA</span></div>
-          <div class="mod-info"><div class="mod-meta"><span class="type-pill">مغامرة</span><span>الإصدار 1.0</span></div><h3>مغامرة البقاء</h3><p>هذا نموذج لبطاقة مود Java. عدّل الاسم والوصف ورابط الملف لعرض مودك الحقيقي.</p><div class="card-bottom"><span class="file-type">.jar</span><a class="download-link" href="mods/survival-adventure.jar" download>تحميل <span>↓</span></a></div></div>
+        <article class="mod-card" data-title="Permanent Night Vision" data-category="bedrock">
+          <div class="mod-cover cover-purple"><span class="cover-label">ADD-ON / 02</span><div class="cover-cube">☾</div><span class="cover-version">BEDROCK</span></div>
+          <div class="mod-info"><div class="mod-meta"><span class="type-pill">إضافة</span><span>ملف MCADDON</span></div><h3>Permanent Night Vision</h3><p>إضافة للرؤية الليلية الدائمة لماينكرافت Bedrock.</p><div class="card-bottom"><span class="file-type">.mcaddon</span><a class="download-link" href="mods/Permanent_Night_Vision_Custom_Icon.mcaddon" download>تحميل <span>↓</span></a></div></div>
         </article>
       </div>
       <div class="empty-state" id="empty-state" hidden>ما لقينا مود بهذا الاسم. جرّب كلمة ثانية.</div>
-      <p class="demo-note"><strong>ملاحظة:</strong> المودات المعروضة أمثلة تصميمية. أضف ملفاتك الحقيقية إلى مجلد <code>mods</code> وحدّث روابط البطاقات قبل نشر الموقع.</p>
     </section>
-
     <section class="about-section" id="about">
       <div class="about-icon">⬡</div>
       <div><div class="section-kicker">عن CraftMods / 02</div><h2>كل إضافة تبدأ <span class="green">بفكرة.</span></h2><p>هذا موقع شخصي لعرض موداتك وتنظيمها في مكان واحد. يمكنك إضافة صور، وصف، رقم الإصدار، ونوع ماينكرافت المدعوم لكل مود.</p></div>
       <div class="about-points"><div><span>01</span> روابط تحميل واضحة</div><div><span>02</span> تصميم مناسب للهاتف</div><div><span>03</span> تحكم كامل بمحتواك</div></div>
     </section>
-
     <section class="owner-section" id="submit">
       <div><div class="section-kicker">إدارة الموقع / 03</div><h2>مود جديد؟ أضِفه <span class="green">هنا.</span></h2><p>هذه نسخة ثابتة بدون لوحة تحكم خلفية. لإضافة مود جديد، انسخ بطاقة مود في ملف <code>index.html</code> وعدّل بياناتها ورابط الملف. راجع ملف README للتفاصيل.</p></div>
       <a class="primary-button" href="README.md" target="_blank" rel="noopener">دليل التعديل والنشر <span>↗</span></a>
